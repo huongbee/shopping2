@@ -56,27 +56,7 @@
 </head>
 
 <body class="shop_grid_page">
-  <!--[if lt IE 8]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
-  <!-- mobile menu -->
-  <div id="mobile-menu">
-    <ul>
-      <li>
-        <a href="index.html" class="home1">Home</a>
-      </li>
-      <li>
-        <a href="contact_us.html">Contact us</a>
-      </li>
-      <li>
-        <a href="about_us.html">About us</a>
-      </li>
-      <li>
-        <a href="blog_full_width.html">Blog</a>
-      </li>
-    </ul>
-  </div>
-  <!-- end mobile menu -->
+  
   <div id="page">
     <!-- Header -->
     <header>
@@ -129,12 +109,6 @@
                 <div id="search">
                   <form>
                     <div class="input-group">
-                      <select class="cate-dropdown hidden-xs" name="category_id">
-                        <option>All Categories</option>
-                        <option>women</option>
-                        <option>Men</option>
-                        <option>Electronics</option>
-                      </select>
                       <input type="text" class="form-control" placeholder="Search" name="search">
                       <button class="btn-search" type="button">
                         <i class="fa fa-search"></i>
@@ -171,7 +145,6 @@
       </div>
     </header>
     <!-- end header -->
-
     <!-- Navbar -->
     <nav>
       <div class="container">
@@ -559,42 +532,6 @@
       <div class="container">
         <div class="row">
           <div class="col-main col-sm-9 col-xs-12 col-sm-push-3">
-            <div class="category-description std">
-              <div class="slider-items-products">
-                <div id="category-desc-slider" class="product-flexslider hidden-buttons">
-                  <div class="slider-items slider-width-col1 owl-carousel owl-theme">
-
-                    <!-- Item -->
-                    <div class="item">
-                      <a href="#x">
-                        <img alt="" src="images/cat-slider-img1.jpg">
-                      </a>
-                      <div class="inner-info">
-                        <div class="cat-img-title">
-                          <span>Our new range of</span>
-                          <h2 class="cat-heading">
-                            <strong>Smartphone</strong>
-                          </h2>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-                          <a class="info" href="#">Shop Now</a>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- End Item -->
-
-                    <!-- Item -->
-                    <div class="item">
-                      <a href="#x">
-                        <img alt="" src="images/cat-slider-img2.jpg">
-                      </a>
-                    </div>
-
-                    <!-- End Item -->
-
-                  </div>
-                </div>
-              </div>
-            </div>
             <div class="shop-inner">
               <div class="page-title">
                 <h2>Apple</h2>
@@ -1234,7 +1171,6 @@
                 <h3>Shop By</h3>
               </div>
               <div class="block-content">
-                <p class="block-subtitle">Shopping Options</p>
                 <div class="layered-Category">
                   <h2 class="saider-bar-title">Categories</h2>
                   <div class="layered-content">
@@ -1291,104 +1227,37 @@
                     </ul>
                   </div>
                 </div>
+                <div class="layered-Category">
+                  <h2 class="saider-bar-title">Price</h2>
+                  <div class="layered-content">
+                    <ul class="check-box-list">
+                      <li>
+                        <input type="checkbox" id="p1" name="cc" />
+                        <label for="p1">
+                          <span class="button"></span> $20 - $50
+                          <span class="count">(0)</span>
+                        </label>
+                      </li>
+                      <li>
+                        <input type="checkbox" id="p2" name="cc" />
+                        <label for="p2">
+                          <span class="button"></span> $50 - $100
+                          <span class="count">(0)</span>
+                        </label>
+                      </li>
+                      <li>
+                        <input type="checkbox" id="p3" name="cc" />
+                        <label for="p3">
+                          <span class="button"></span> $100 - $250
+                          <span class="count">(0)</span>
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
 
               </div>
             </div>
-            <div class="block product-price-range ">
-              <div class="sidebar-bar-title">
-                <h3>Price</h3>
-              </div>
-              <div class="block-content">
-                <div class="slider-range">
-                  <div data-label-reasult="Range:" data-min="0" data-max="500" data-unit="$" class="slider-range-price" data-value-min="50"
-                    data-value-max="350"></div>
-                  <div class="amount-range-price">Range: $10 - $550</div>
-                  <ul class="check-box-list">
-                    <li>
-                      <input type="checkbox" id="p1" name="cc" />
-                      <label for="p1">
-                        <span class="button"></span> $20 - $50
-                        <span class="count">(0)</span>
-                      </label>
-                    </li>
-                    <li>
-                      <input type="checkbox" id="p2" name="cc" />
-                      <label for="p2">
-                        <span class="button"></span> $50 - $100
-                        <span class="count">(0)</span>
-                      </label>
-                    </li>
-                    <li>
-                      <input type="checkbox" id="p3" name="cc" />
-                      <label for="p3">
-                        <span class="button"></span> $100 - $250
-                        <span class="count">(0)</span>
-                      </label>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="block sidebar-cart">
-              <div class="sidebar-bar-title">
-                <h3>My Cart</h3>
-              </div>
-              <div class="block-content">
-                <p class="amount">There are
-                  <a href="shopping_cart.html">2 items</a> in your cart.</p>
-                <ul>
-                  <li class="item">
-                    <a href="shopping_cart.html" title="Sample Product" class="product-image">
-                      <img src="images/products/img07.jpg" alt="Sample Product ">
-                    </a>
-                    <div class="product-details">
-                      <div class="access">
-                        <a href="#" title="Remove This Item" class="remove-cart">
-                          <i class="icon-close"></i>
-                        </a>
-                      </div>
-                      <p class="product-name">
-                        <a href="shopping_cart.html">Lorem ipsum dolor sit amet Consectetur</a>
-                      </p>
-                      <strong>1</strong> x
-                      <span class="price">$19.99</span>
-                    </div>
-                  </li>
-                  <li class="item last">
-                    <a href="#" title="Sample Product" class="product-image">
-                      <img src="images/products/img08.jpg" alt="Sample Product">
-                    </a>
-                    <div class="product-details">
-                      <div class="access">
-                        <a href="#" title="Remove This Item" class="remove-cart">
-                          <i class="icon-close"></i>
-                        </a>
-                      </div>
-                      <p class="product-name">
-                        <a href="shopping_cart.html">Consectetur utes anet adipisicing elit</a>
-                      </p>
-                      <strong>1</strong> x
-                      <span class="price">$8.00</span>
-                      <!--access clearfix-->
-                    </div>
-                  </li>
-                </ul>
-                <div class="summary">
-                  <p class="subtotal">
-                    <span class="label">Cart Subtotal:</span>
-                    <span class="price">$27.99</span>
-                  </p>
-                </div>
-                <div class="cart-checkout">
-                  <button class="button button-checkout" title="Submit" type="submit">
-                    <i class="fa fa-check"></i>
-                    <span>Checkout</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-
-
             <div class="single-img-add sidebar-add-slider ">
               <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
